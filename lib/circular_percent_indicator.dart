@@ -206,7 +206,7 @@ class _CircularPercentIndicatorState extends State<CircularPercentIndicator>
     }
     items.add(
       Container(
-        height: widget.radius + widget.lineWidth,
+        // height: widget.radius + widget.lineWidth,
         width: widget.radius,
         child: Stack(
           children: [
